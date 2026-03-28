@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -c \"import sys; print\\(sys.version\\)\")",
+      "Bash(python -c \"import sys; print\\(sys.version\\)\")",
+      "Bash(npm install:*)",
+      "Bash(npx tsc:*)",
+      "Bash(cd:*)",
+      "Bash(node -e \"const l = require\\(''lucide-react''\\); console.log\\(Object.keys\\(l\\).filter\\(k => k.toLowerCase\\(\\).includes\\(''git''\\) || k.toLowerCase\\(\\).includes\\(''link''\\)\\)\\)\")",
+      "Bash(npm run:*)"
+    ]
+  }
+}
